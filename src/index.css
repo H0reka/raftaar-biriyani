@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+.shrikhand-regular {
+  font-family: "Shrikhand", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fredoka{
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.climate-crisis{
+  font-family: "Climate Crisis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
+}
+/* 
+.custom-shape-divider-bottom-1744994558 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1744994558 svg {
+  position: relative;
+  display: block;
+  width: calc(104% + 1.3px);
+  height: 215px;
+}
+
+.custom-shape-divider-bottom-1744994558 .shape-fill {
+  fill: #1E392A;
+} */
+.custom-shape-divider-bottom-1744994848 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  pointer-events: none;
+}
+
+.custom-shape-divider-bottom-1744994848 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 130px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1744994848 .shape-fill {
+  fill: #1E392A;
+}
+
+.circle-splatter{
+  background: url('/circle-scatter-haikei.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 'center';
+}
+
+
+.custom-shape-divider-bottom-1745002847 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  pointer-events: none;
+}
+
+.custom-shape-divider-bottom-1745002847 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 210px;
+}
+
+.custom-shape-divider-bottom-1745002847 .shape-fill {
+  fill: #D93226;
+}
