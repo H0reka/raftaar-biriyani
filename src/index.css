@@ -26,6 +26,12 @@
     "wdth" 100;
 }
 
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 .climate-crisis{
   font-family: "Climate Crisis", sans-serif;
   font-optical-sizing: auto;

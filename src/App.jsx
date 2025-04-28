@@ -10,12 +10,13 @@ export default function Home() {
     <div className="font-sans text-[#1e1e1e] luckiest-guy-regular">
       {/* Hero Section */}
       <HeroSection />
+      {/* Menu Section */}
+      <MenuSection />
       {/* Mid Section */}
       <SpicySection />
       {/*Second mid section*/}
       <FastSection />
-      {/* Menu Section */}
-      <MenuSection />
+
       {/* Footer */}
       <Footer />
     </div>
