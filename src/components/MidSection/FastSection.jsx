@@ -8,11 +8,15 @@ const FastSection = () => {
     className="col-span-12 justify-self-center w-40 mb-16 fill-[#f4c31d]"
     alt=""
   /> */}
-      <div className="flex flex-col items-center md:mt-0 col-span-6">
-        <img src="https://placehold.co/800x900" alt="Meal Box" />
+      <div className="flex flex-col items-center md:mt-0 col-span-8 md:col-span-12 lg:col-span-7">
+        <img
+          src="/paneerBiriyani.JPG"
+          alt="Meal Box"
+          className="lg:h-[45rem] lg:w-[51em]"
+        />
       </div>
-      <div className="max-w-xl col-span-6 p-4">
-        <h2 className="text-[3.5rem] md:text-8xl font-extrabold mb-4 text-[#f76d28ec]">
+      <div className="max-w-xl col-span-8 md:col-span-12 lg:col-span-5 p-4">
+        <h2 className="text-[3rem] md:text-8xl font-extrabold mb-4 text-[#f76d28ec]">
           FAST FIRE.
           <br />
           FULL FLAVOR.

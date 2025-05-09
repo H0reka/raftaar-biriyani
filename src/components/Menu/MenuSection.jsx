@@ -9,7 +9,7 @@ const MenuSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mx-auto col-span-12">
         <div className="flex flex-col items-center climate-crisis bg-[#f4c31d] hover:text-[#ff5700] transition-all duration-200 p-4 rounded-2xl col-span-4">
           <img
-            src="https://placehold.co/600x600"
+            src="/chickenBiriyani.JPG"
             alt="Chicken Biriyani"
             className="mb-4"
           />
@@ -17,25 +17,23 @@ const MenuSection = () => {
         </div>
         <div className="flex flex-col items-center climate-crisis bg-[#f4c31d] hover:text-[#ff5700] transition-all duration-200 p-4 rounded-2xl col-span-4">
           <img
-            src="https://placehold.co/600x600"
-            alt="Fried Chicken"
+            src="/paneerBiriyani.JPG"
+            alt="Paneer Biriyani"
             className=" mb-4"
           />
           <h3 className="text-xl font-bold">PANEER BIRIYANI</h3>
         </div>
         <div className="flex flex-col items-center climate-crisis bg-[#f4c31d] hover:text-[#ff5700] transition-all duration-200 p-4 rounded-2xl col-span-4">
-          <img
-            src="https://placehold.co/600x600"
-            alt="Chili Chicken"
-            className="mb-4"
-          />
+          <img src="./eggBiriyani.JPG" alt="Egg Biriyani" className="mb-4" />
           <h3 className="text-xl font-bold">EGG BIRIYANI</h3>
         </div>
       </div>
       <div className="col-span-12 items-center text-center">
-        <button className="mt-16 bg-[#f4c31d] hover:bg-[#e4b815] mb-20  transition-colors duration-200  climate-crisis font-bold py-3 px-4 rounded-full text-3xl cursor-pointer">
-          EXPLORE MORE
-        </button>
+        <a href="https://zomato.onelink.me/xqzv/50xncx6f" target="__blank">
+          <button className="mt-16 bg-[#f4c31d] hover:bg-[#e4b815] mb-20  transition-colors duration-200  climate-crisis font-bold py-3 px-4 rounded-full text-3xl cursor-pointer">
+            EXPLORE MORE
+          </button>
+        </a>
       </div>
       <div className="custom-shape-divider-bottom-1744994848">
         <svg

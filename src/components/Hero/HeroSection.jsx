@@ -20,9 +20,14 @@ const HeroSection = () => {
           <br /> SET.
           <br /> <span className="text-7xl lg:text-9xl">BIRIYANI!!</span>
         </h1>
-        <button className="bg-[#d93226] transition-colors climate-crisis duration-200 hover:bg-[#d8412f] text-[#f3d984fa] font-bold py-3 px-4 rounded-full text-3xl cursor-pointer">
+        <a
+          href="https://zomato.onelink.me/xqzv/50xncx6f"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-[#d93226] transition-colors climate-crisis duration-200 hover:bg-[#d8412f] text-[#f3d984fa] font-bold py-3 px-4 rounded-full text-3xl cursor-pointer inline-block text-center"
+        >
           ORDER NOW
-        </button>
+        </a>
       </div>
       <img
         src="/biriyani-bowl.png"
