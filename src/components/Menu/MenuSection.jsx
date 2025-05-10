@@ -9,7 +9,7 @@ const MenuSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mx-auto col-span-12">
         <div className="flex flex-col items-center climate-crisis bg-[#f4c31d] hover:text-[#ff5700] transition-all duration-200 p-4 rounded-2xl col-span-4">
           <img
-            src="/chickenBiriyani.JPG"
+            src="/chickenBiriyani.jpg"
             alt="Chicken Biriyani"
             className="mb-4"
           />

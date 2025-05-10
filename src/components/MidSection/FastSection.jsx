@@ -10,7 +10,7 @@ const FastSection = () => {
   /> */}
       <div className="flex flex-col items-center md:mt-0 col-span-8 md:col-span-12 lg:col-span-7">
         <img
-          src="/paneerBiriyani.JPG"
+          src="/gunturBiriyani.JPG"
           alt="Meal Box"
           className="lg:h-[45rem] lg:w-[51em]"
         />
