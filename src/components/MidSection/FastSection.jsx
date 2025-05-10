@@ -8,12 +8,8 @@ const FastSection = () => {
     className="col-span-12 justify-self-center w-40 mb-16 fill-[#f4c31d]"
     alt=""
   /> */}
-      <div className="flex flex-col items-center md:mt-0 col-span-8 md:col-span-12 lg:col-span-7">
-        <img
-          src="/gunturBiriyani.JPG"
-          alt="Meal Box"
-          className="lg:h-[45rem] lg:w-[51em]"
-        />
+      <div className="items-center md:mt-0 col-span-8 md:col-span-12 lg:col-span-7 left-0 h-[50em] ">
+        <img src="/gunturBiriyani.JPG" alt="Meal Box" className="h-full" />
       </div>
       <div className="max-w-xl col-span-8 md:col-span-12 lg:col-span-5 p-4">
         <h2 className="text-[3rem] md:text-8xl font-extrabold mb-4 text-[#f76d28ec]">
