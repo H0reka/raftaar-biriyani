@@ -2,22 +2,22 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/homepage",
+      "destination": "/biriyanihood",
       "permanent": true
     },
     {
       "source": "/index.html",
-      "destination": "/homepage",
+      "destination": "/biriyanihood",
       "permanent": true
     }
   ],
   "rewrites": [
     {
-      "source": "/homepage",
+      "source": "/biriyanihood",
       "destination": "/"
     },
     {
-      "source": "/homepage/(.*)",
+      "source": "/biriyanihood/(.*)",
       "destination": "/$1"
     }
   ]
