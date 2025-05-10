@@ -1,6 +1,24 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/homepage",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/homepage",
+      "permanent": true
+    }
+  ],
   "rewrites": [
-    { "source": "/biriyanihood", "destination": "/" },
-    { "source": "/biriyanihood/(.*)", "destination": "/$1" }
+    {
+      "source": "/homepage",
+      "destination": "/"
+    },
+    {
+      "source": "/homepage/(.*)",
+      "destination": "/$1"
+    }
   ]
 }
