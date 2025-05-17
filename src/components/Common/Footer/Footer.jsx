@@ -2,11 +2,11 @@ import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
-    <section className="bg-[#d93226] text-[#f4c31d] col-span-12 py-16  text-center">
+    <section className="bg-[#d93226] text-[#f4c31d] col-span-12 py-16  text-center w-full">
       <h2 className="text-6xl md:text-8xl font-extrabold mb-6">
-        READY FOR A FLAVOR RUSH?
+        {props.title}
       </h2>
       <a
         href="https://zomato.onelink.me/xqzv/50xncx6f"
